@@ -2,6 +2,10 @@ body{
   font-family:arial, helvetica, sans-serif;
 }
 
+body{
+  font-family:arial, helvetica, sans-serif;
+}
+
 a.btn.btn-primary.btn-lg{
 }
 
@@ -86,8 +90,9 @@ div.jumbotron{
 }
 
 .navbar-inverse .navbar-nav > .active > a{
-  color:#333333;
-  background:rgb(254,247,149);
+  color:#ee4e90;
+  font-weight:600;
+  border:none;
 }
 
 footer{
@@ -113,5 +118,96 @@ footer{
 #social i{
   font-size:30px;
   margin-right:10px;
+}
+
+div.about_cover{
+  background:url(../../assets/img/about_main.jpg) 0 100px no-repeat;
+  height:50vh;
+  background-size:cover;
+  margin-top:65px;
+  background-position:center;
+}
+
+#cover_text{
+}
+
+#cover-head{
+  color:white;
+  margin-top:23vh;
+}
+
+div.container.about_cover_container{
+  height:100%;
+  background:rgba(21,21,21,0.66);
+  width:100%;
+}
+
+#identity{
+  margin-top:50px;
+}
+
+#profpiccol{
+}
+
+p#profession{
+  color:#696969;
+  letter-spacing:1px;
+  font-size:12px;
+}
+
+#profpic{
+  float:left;
+}
+
+@media (max-width:767px) {
+  div#line{
+    width:50px;
+    margin-bottom:1em;
+    height:2px;
+    background:#ee4e90;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+div#line{
+  width:50px;
+  margin-bottom:1em;
+  height:2px;
+  background:#ee4e90;
+}
+
+.topmar{
+  margin-top:2em;
+}
+
+.topmar p{
+  font:15px/1.6 lora;
+  color:#696969;
+}
+
+@media (min-width:767px) {
+  #profhead h3, #profhead p{
+    text-align:left;
+  }
+}
+
+div.quote{
+  border-left:2px solid #ee4e90;
+  background:rgba(115,193,223,0.1);
+  padding:2em;
+}
+
+.quote p{
+  color:#8b8f91;
+}
+
+.topshow{
+  margin-top:65px;
+}
+
+div#line.mx-auto{
+  margin-left:auto;
+  margin-right:auto;
 }
 
