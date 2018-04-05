@@ -1,0 +1,181 @@
+h1{
+  font-size:50px;
+}
+
+div.main{
+  background:url(../../assets/img/ggbridge.jpg) no-repeat;
+  height:100vh;
+  width:100%;
+  background-size:cover;
+  animation:backflow 5s linear 1s infinite alternate;
+}
+
+div.gray-fade{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  background:radial-gradient(rgba(71,71,71,0.1), rgba(71,71,71,0.7));
+}
+
+div.col-md-3.logoback{
+  background:yellow;
+  padding:15px 60px;
+  width:20%;
+  z-index:100;
+}
+
+.white-text{
+  color:#fff;
+  font-family:'Raleway';
+  font-size:16px;
+  font-weight:600;
+}
+
+.white-text-dis{
+  color:#ccc;
+  font-family:'Raleway';
+  font-size:16px;
+  font-weight:600;
+}
+
+.va-center{
+  padding:30px;
+}
+
+.rank{
+  height:50px;
+  width:50px;
+  background:rgb(71,71,71);
+  margin-top:15px;
+  border-radius:50%;
+  color:yellow;
+  font-size:20px;
+  padding-top:8px;
+}
+
+.shadow{
+  box-shadow:0 0 10px 5px rgba(51,51,51,0.5);
+}
+
+a.white-text-dis{
+  padding-left:15px;
+}
+
+a:hover{
+  color:white;
+  text-decoration:none;
+}
+
+.w-30{
+  width:35%;
+}
+
+a.visited{
+}
+
+.w-100{
+  width:100%;
+}
+
+.navitem{
+  height:10vh;
+  padding-left:25px;
+}
+
+.navplace{
+  background-color:rgba(71,71,71,0.7);
+  height:88vh;
+  margin-top:-7px;
+}
+
+.place-detail{
+  padding-top:15vh;
+  padding-left:10vw;
+}
+
+.place-detail p{
+  color:f;
+  font-weight:200;
+}
+
+.btnknow{
+  height:40px;
+  width:151px;
+  border:1px solid yellow;
+  color:yellow;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.2s ease-out;
+}
+
+.btnknow:hover{
+  color:#474747;
+  background-color:yellow;
+  transition:0.1s ease-in-out;
+  box-shadow:0 0 3px #474747;
+}
+
+.cityname{
+  transform:rotate(90deg);
+  width:80vh;
+  color:yellow;
+  font-family:'Raleway';
+  text-transform:uppercase;
+  letter-spacing:10px;
+  font-size:30px;
+  position:relative;
+  top:-50vh;
+  left:-2vw;
+  border-bottom:2px solid white;
+  transition:0.1s ease;
+}
+
+.cityname:hover{
+  border-bottom:2px solid yellow;
+  transition:0.3s ease;
+}
+
+.footer{
+  position:absolute;
+  bottom:-3vh;
+  width:100%;
+  height:15vh;
+  background:linear-gradient(rgba(71,71,71,0),rgba(71,71,71,0.7), rgb(71,71,71));
+  left:0;
+}
+
+div.rank.rank-white{
+  background:white;
+  margin-top:0;
+  padding-left:12px;
+  padding-top:10px;
+  margin-right:10px;
+  cursor:pointer;
+}
+
+i{
+  font-size:25px;
+  color:#474747;
+}
+
+.packname{
+  padding-top:15px;
+  width:20%;
+}
+
+div.col-md-3.wl-cont{
+  padding:0;
+}
+
+.white-line{
+  width:100%;
+  margin-top:25px;
+  height:2px;
+  background-color:white;
+}
+
+.photo-num{
+  padding-top:15px;
+}
+
